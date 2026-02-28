@@ -1,0 +1,29 @@
+# Data files
+data/
+*.json
+!package.json
+
+# Proxy & voucher files
+proxy.txt
+voucher.txt
+applicable_vouchers.txt
+not_applicable_vouchers.txt
+logs.json
+cookies.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+api_output.txt
+test_output.txt
